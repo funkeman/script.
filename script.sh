@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ ${UID} -ne 0 ]
+then
+	echo "You need root access"
+fi
 
 <<<<<<< HEAD
 #Description: Script to display system info
